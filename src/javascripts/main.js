@@ -1,5 +1,31 @@
 import '../styles/main.scss';
-import 'bootstrap';
+import eat from './components/eat/eat';
+import eatData from './helpers/data/eadData';
+
+const addToFullScore = () => {
+  eatData.setFullScore(10);
+  eat.eatBuilder();
+};
+
+const subFromFullScore = () => {
+  eatData.setFullScore(-3);
+  eat.eatBuilder();
+};
+
+const buttonEvents = () => {
+  $('#eat').on('click', '#healthy-food-btn', addToFullScore);
+  $('#eat').on('click', '#unhealthy-food-btn', subFromFullScore);
+};
 
 
-console.error('hey does this work?');
+const quad = () => {
+  eat.eatBuilder();
+};
+
+const init = () => {
+  buttonEvents();
+  quad();
+};
+
+
+init();

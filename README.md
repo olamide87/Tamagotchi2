@@ -1,23 +1,26 @@
-# Tamagotchi
 
-## Description
-The purpose of this project was to practice modular development and utilize SASS to style the app without the use of Bootstrap.
+## Tamagotchi2
 
-Each of the quadrants contains buttons the either increase or descrease the score within the corresponding quadrant. Each of those scores is then collected and an average score is printed above the app with a progress bar that updates upon each button click.
+# Description
+This project is used to show the progression of javascript modules paired with Sass styling. This project is also our first introduction to using webpack. It is designed to be an application that mimics the Tamagotchi toy. Not quite on par with the Tamagotchi toy, this application allows for interactive buttons in four catagories: Eat, Play, Fight, and Sleep. These buttons change the score of each catagory in positive or negative ways depending on the button clicked.
 
+# Feature List
+* Four interactive catagories
+* Buttons used to change catagory score
+* Sass styling
 
 ## Screenshots
-Full app view
-![main project view](https://i.imgur.com/j5TiyRH.png)
+Full Page view ![main project view](https://i.imgur.com/j5TiyRH.png)
 
 
-
-## How to run
-1. Clone this repo
-1. Make sure you have http-server installed via npm. If not get it [here](https://www.npmjs.com/package/http-server)
-1. On your command line, run `hs -p 9999`
-1. In your browser, go to `http://localhost:9999`
+## How to Run
+Clone down this repo
+Make sure you have http-server installed via npm. If not get it HERE
+On your command line run hs -p 8080
+In your browser go to https://localhost:8080
+Contributors
 
 Owner: Olamide Oladinni
 
-Instructor: Luke Lancaster
+Instructor: Luke Lancaster 
+

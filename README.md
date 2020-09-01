@@ -1,3 +1,4 @@
+
 ## Tamagotchi2
 
 # Description
@@ -9,7 +10,7 @@ This project is used to show the progression of javascript modules paired with S
 * Sass styling
 
 ## Screenshots
-Full Page view
+Full Page view ![main project view](https://i.imgur.com/j5TiyRH.png)
 
 
 ## How to Run
@@ -22,5 +23,4 @@ Contributors
 Owner: Olamide Oladinni
 
 Instructor: Luke Lancaster 
-
 
